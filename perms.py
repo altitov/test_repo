@@ -6,6 +6,6 @@ def perms():
   l = list(itertools.permutations(s, 3))
   for p in l:
     if (sum(p) == 6):
-      print(a)
+      print(p)
 
 perms()
